@@ -2,8 +2,8 @@
 #include<string.h>
 char *mystrcat(char *dst,char *src){
 
-int i,j=0;
-for(i=strlen(dst);src[j];i++){
+int i,j=0,len=strlen(dst);
+for(i=len;src[j];i++){
 	dst[i]=src[j];
 	j++;
 
